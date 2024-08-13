@@ -11,21 +11,17 @@ import Footer from './componants/Footer'
 
 function App() {
   return (
-   <>
-   <Navbar/>
-   <Header/>
-   <About/>
-   <Services/>
-   <Skills/>
-   <Contact/>
-   <Footer/>
+    <>
+    
+      <Navbar />
+      <Header />
+      <About />
+      <Services />
+      <Skills />
+      <Contact />
+      <Footer />
 
-
-
-   
-
-
-   </>
+    </>
   )
 }
 

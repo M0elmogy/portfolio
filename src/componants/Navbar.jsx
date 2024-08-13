@@ -10,13 +10,13 @@ function Navbar() {
         setNav(!nav)
     }
     return (
-        <div >
+        <div  >
 
-            <div className='flex  items-center justify-between h-20 max-w-9000x mx-auto px-4 text-white shadow-red-500 shadow-lg'>
-                <h1 className='w-full text-3xl text-neutral-500 font-sans'>
+            <div className='  flex  items-center justify-between h-20 max-w-9000x mx-auto px-4 text-white shadow-red-500 shadow-lg'>
+                <h1 id='m-elmogy' className='w-full text-3xl text-neutral-500 font-sans animate__animated animate__bounce'>
                     <span className='text-red-500'>M</span>:ELmogy
                 </h1>
-                <ul className=' hidden md:flex '>
+                <ul id='nav' className='  hidden md:flex animate__animated animate__backInRight  '>
                     <li className='p-4  hover:text-red-500 '><a href="">Home</a> </li>
                     <li className='p-4 hover:text-red-500 '><a href="">About</a> </li>
                     <li className='p-4 hover:text-red-500 '><a href="">projects</a> </li>
@@ -29,10 +29,10 @@ function Navbar() {
 
                 </div>
                 <div className={nav ? 'fixed left-0 top-0 w-80   h-full border-r border-r-gray-900 bg-zinc-900 ' : 'hidden'}>
-                    <h1 className='w-full text-3xl text-neutral-500  font-bold m-4'>
+                    <h1 id='m-elmogy' className='w-full text-3xl text-neutral-500  font-bold m-4'>
                         M:ELmogy
                     </h1>
-                    <ul className='pt-2 uppercase'>
+                    <ul id='nav' className=' pt-2 uppercase'>
                         <li className='p-4 hover:text-red-500 '><a href="">Home</a> </li>
                         <li className='p-4 hover:text-red-500 '><a href="">About</a> </li>
                         <li className='p-4 hover:text-red-500 '><a href="">projects</a> </li>

@@ -6,7 +6,10 @@ import App from './App';
   href='http://fonts.googleapis.com/css?family=Cantora+One|Ropa+Sans:400,400italic'
   rel='stylesheet'
   type='text/css'
-></link>
+>
+  
+</link>
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

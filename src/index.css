@@ -3,8 +3,64 @@
 @tailwind utilities;
 
 
-body{
- /* background-image: url('./images/blob-haikei.png');
+body {
+    /* background-image: url('./images/blob-haikei.png');
  background-size: cover; */
- background-color: rgb(00, 11, 22);
+    background-color: rgb(00, 11, 22);
+}
+
+#m-elmogy {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nav {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hello {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#iam {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#paragaph {
+    font-family: sans-serif;
+}
+
+#conatct {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#services {
+    font-family: sans-serif;
+}
+
+#web {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#web2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#skills {
+    font-family: sans-serif;
+}
+
+#icons {
+    font-family: monospace;
+}
+
+#contact {
+    font-family: sans-serif;
 }
